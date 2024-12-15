@@ -1,0 +1,115 @@
+:root {
+    --light-background: #282c34;
+    --dark-background: #21252b;
+    --white: #abb2bf;
+    --grey: #7f848e;
+    --red: #e05561;
+    --yellow: #e5c07b;
+    --green: #98c379;
+    --blue: #61afef;
+    --cyan: #56b6c2;
+    --purple: #c678dd;
+}
+
+#main {
+    padding: 1cm;
+    background-color: var(--dark-background);
+    max-width: 75em;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-cheese {
+    padding-bottom: 1em;
+    height: 20em;
+}
+
+#no-top-marge {
+    margin-top: 0;
+}
+
+#footer {
+    margin-bottom: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.red {
+    color: var(--red);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.green {
+    color: var(--green);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.cyan {
+    color: var(--cyan);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+body {
+    background-color: var(--light-background);
+    color: var(--white);
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: em;
+}
+
+a {
+    color: var(--blue);
+}
+
+video {
+    max-width: 50em;
+    max-height: 25em;
+    width: 90%;
+}
+
+img {
+    max-width: 50em;
+    max-height: 25em;
+    width: 90%;
+}
